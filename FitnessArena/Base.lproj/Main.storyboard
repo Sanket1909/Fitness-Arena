@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P24-bo-5Wv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P24-bo-5Wv">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -4687,20 +4687,21 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XvB-D5-7pj"/>
+        <segue reference="qhq-dH-OYk"/>
+        <segue reference="SNI-uA-3rt"/>
         <segue reference="vL3-j7-C5D"/>
         <segue reference="90w-h1-ljl"/>
         <segue reference="7v1-CQ-3Cg"/>
         <segue reference="cMR-Nj-AcN"/>
         <segue reference="MAQ-AJ-ruN"/>
         <segue reference="Jsa-lN-dkb"/>
-        <segue reference="fap-GV-CgR"/>
-        <segue reference="G1x-Pz-kvC"/>
+        <segue reference="CVT-le-fJc"/>
+        <segue reference="DCk-94-bFB"/>
         <segue reference="iyo-ON-A0I"/>
         <segue reference="EAu-GY-VPf"/>
         <segue reference="IID-mm-JAJ"/>
         <segue reference="pk5-cB-fPr"/>
-        <segue reference="TvN-yD-qqa"/>
+        <segue reference="sU3-ja-TzC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Abdominals" width="48" height="48"/>
