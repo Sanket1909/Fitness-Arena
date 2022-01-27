@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323462CD27A2EB2A001519AE /* ArmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323462CB27A2EB2A001519AE /* ArmsViewController.swift */; };
+		323462CE27A2EB2A001519AE /* ArmsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323462CC27A2EB2A001519AE /* ArmsDetailViewController.swift */; };
 		32890EE72796FE9000B76B2B /* NutriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32890EE62796FE9000B76B2B /* NutriViewController.swift */; };
 		32890EE927970C5C00B76B2B /* WeightLossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32890EE827970C5C00B76B2B /* WeightLossViewController.swift */; };
 		32890EEB279712FA00B76B2B /* BuildingMuscleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32890EEA279712FA00B76B2B /* BuildingMuscleViewController.swift */; };
@@ -56,11 +58,11 @@
 		41BDBC6C2768126500E23F78 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDBC6B2768126500E23F78 /* Utilities.swift */; };
 		41BDBCAB2768694400E23F78 /* CardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDBCAA2768694400E23F78 /* CardioViewController.swift */; };
 		551EE4E2B57CD7B4403151CE /* Pods_FitnessArena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F740273C4D1253990B8E32B /* Pods_FitnessArena.framework */; };
-		8E24716827A1F601007E2091 /* ArmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24716627A1F601007E2091 /* ArmsViewController.swift */; };
-		8E24716927A1F601007E2091 /* ArmsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24716727A1F601007E2091 /* ArmsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		323462CB27A2EB2A001519AE /* ArmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmsViewController.swift; sourceTree = "<group>"; };
+		323462CC27A2EB2A001519AE /* ArmsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmsDetailViewController.swift; sourceTree = "<group>"; };
 		32890EE62796FE9000B76B2B /* NutriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriViewController.swift; sourceTree = "<group>"; };
 		32890EE827970C5C00B76B2B /* WeightLossViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLossViewController.swift; sourceTree = "<group>"; };
 		32890EEA279712FA00B76B2B /* BuildingMuscleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingMuscleViewController.swift; sourceTree = "<group>"; };
@@ -112,8 +114,6 @@
 		41BDBC6B2768126500E23F78 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		41BDBCAA2768694400E23F78 /* CardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioViewController.swift; sourceTree = "<group>"; };
 		44BB24AA7373D5BCECBF73CD /* Pods-FitnessArena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessArena.release.xcconfig"; path = "Target Support Files/Pods-FitnessArena/Pods-FitnessArena.release.xcconfig"; sourceTree = "<group>"; };
-		8E24716627A1F601007E2091 /* ArmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmsViewController.swift; sourceTree = "<group>"; };
-		8E24716727A1F601007E2091 /* ArmsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmsDetailViewController.swift; sourceTree = "<group>"; };
 		9F740273C4D1253990B8E32B /* Pods_FitnessArena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitnessArena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBFA123D61C03CB71ECC6FF /* Pods-FitnessArena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessArena.debug.xcconfig"; path = "Target Support Files/Pods-FitnessArena/Pods-FitnessArena.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -282,8 +282,8 @@
 		41BDBC99276865D500E23F78 /* Arms */ = {
 			isa = PBXGroup;
 			children = (
-				8E24716727A1F601007E2091 /* ArmsDetailViewController.swift */,
-				8E24716627A1F601007E2091 /* ArmsViewController.swift */,
+				323462CC27A2EB2A001519AE /* ArmsDetailViewController.swift */,
+				323462CB27A2EB2A001519AE /* ArmsViewController.swift */,
 			);
 			name = Arms;
 			path = ../../../../Projects/Portfolio/FitnessArena/FitnessArena/View/Weights/Arms;
@@ -452,7 +452,7 @@
 				41BDBC6027680A3C00E23F78 /* LoginViewController.swift in Sources */,
 				32890EE72796FE9000B76B2B /* NutriViewController.swift in Sources */,
 				415D30E82768FC96001AA95E /* CardioDetailViewController.swift in Sources */,
-				8E24716827A1F601007E2091 /* ArmsViewController.swift in Sources */,
+				323462CD27A2EB2A001519AE /* ArmsViewController.swift in Sources */,
 				41BDBC6427680A5200E23F78 /* ForgotPasswordViewController.swift in Sources */,
 				415D30E02768F528001AA95E /* NutritionViewController.swift in Sources */,
 				32890F032797433400B76B2B /* DinnerBMViewController.swift in Sources */,
@@ -472,7 +472,7 @@
 				41BDBC6227680A4500E23F78 /* SignUpViewController.swift in Sources */,
 				32890EFB279742FE00B76B2B /* BreakfastBMViewController.swift in Sources */,
 				41BDBC6827680A6200E23F78 /* ProfileViewController.swift in Sources */,
-				8E24716927A1F601007E2091 /* ArmsDetailViewController.swift in Sources */,
+				323462CE27A2EB2A001519AE /* ArmsDetailViewController.swift in Sources */,
 				41BDBCAB2768694400E23F78 /* CardioViewController.swift in Sources */,
 				415D30DE2768F508001AA95E /* weightsViewController.swift in Sources */,
 				41BDBC4D2768084000E23F78 /* SceneDelegate.swift in Sources */,
