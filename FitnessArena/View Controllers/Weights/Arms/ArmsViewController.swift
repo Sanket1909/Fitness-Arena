@@ -11,11 +11,10 @@ class ArmsViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     @IBOutlet weak var tableView: UITableView!
     
-    
     var data = [
         
-            ["Angled prone curl","Angled prone reverse curl","Arnold press","Cable shrug","Concentration dumbbell curl","Dumbbell biceps curl","Dumbbell reverse curl","Dumbbell row kickback","Dumbbell split jerk", "Dumbbell upright row", "Dumbbell wrist twist"],
-            ["Barbell rear delt raise","Barbell split jerk","Decline barbell bench press","Decline close-grip bench press","Drag curl","French press","Incline barbell bench press","Lying pullover","Overhead bar press","Overhead triceps extension","Reverse wrist curl"],
+            ["Angled prone curl","Angled prone reverse curl","Arnold press","Cable shrug","Concentration dumbbell curl","Dumbbell biceps curl","Dumbbell reverse curl","Dumbbell row kickback","Dumbbell split jerk", "Dumbbell upright row", "Dumbbell wrist twist","Hammer curl","Incline dumbbell curl","Incline hammer curl","Incline reverse curl","Lying one-arm extension","Lying triceps extension","Prone curl","Prone hammer curl","Prone reverse curl","Seated triceps extension","Shrug","Standing concentration curl","Standing single-arm triceps extension","Standing triceps extension","Swiss-ball kickback","Swiss-ball preacher curl","Swiss-ball seated curl","Triceps kickback","Zottman curl"],
+            ["Barbell rear delt raise","Barbell split jerk","Decline barbell bench press","Decline close-grip bench press","Drag curl","French press","Incline barbell bench press","Lying pullover","Overhead bar press","Overhead triceps extension","Reverse wrist curl","Seated preacher curl","Standing biceps curl","Standing wrist curl","Wrist curl"],
             ["Cable biceps curl","Cable triceps overhead extension", "Cable triceps pushdown","Dip","Lat pulldown","Machine biceps curl","Machine triceps extension","Triceps assisted dip"],
             ["Kettlebell curl","Kettlebell french press","Kettlebell kickback","Kettlebell overhead press","Kettlebell pullover","Kettlebell renegade row"],
             ["Swiss-ball french press","Swiss-ball kickback","Swiss-ball preacher curl","Swiss-ball seated curl"],
@@ -179,6 +178,441 @@ class ArmsViewController: UIViewController, UITableViewDelegate, UITableViewData
          
          Rotate your wrists until your palms face the ceiling, then rotate them back so your palms face the floor once again. That's one repetition.
          """,
+        //Hammer curl
+        """
+        Step 1
+        
+        Sit on the edge of the workout bench and hold a
+        pair of dumbbells using a neutral grip and let them just hang at arm's length.
+        
+        Step 2
+        
+        Without changing your wrist positioning, slowly
+        curl the weights up toward your shoulders.
+        Remember to keep your upper arms tucked against
+        your sides as you go through the motion.
+        """,
+        //Incline dumbbell curl
+        """
+            Step 1
+            
+            Sit on an incline bench, and grab a pair of
+            dumbbells. Position the bench so it has roughly a
+            45-degree bend.
+            
+            Step 2
+            
+            Curl the dumbbells toward your chest as far as
+            possible without moving your upper arms forward.
+            Step 3
+            Return to the start position in a controlled manner.
+            """,
+        //Incline hammer curl
+        """
+            Step 1
+            
+            Lie on your back on a 45-degree incline bench.
+            Hold a pair of dumbbells at arm's length by your
+            sides, palms facing in.
+            
+            Step 2
+            
+            Keep your elbows at your sides as you curl the
+            dumbbells, tuning your palms up as you do. Do
+            not pull your arms forward (toward your troso) as
+            you lift - keep them behind you.
+            
+            Step 3
+            
+            Return to starting position. Repeat.
+            """,
+        """
+            Step 1
+            
+            Sit on an incline bench with a dumbbell in each
+            hand, arms hanging straight down. Your arms will
+            naturally fall slightly behind your body.
+            
+            Step 2
+            
+            Turn your hands in so that the backs of your hands
+            face forward, instead of your palms. This is what
+            makes it a reverse curl.
+            
+            Step 3
+            
+            Keep your upper arms fixed in position as you
+            slowly curl the weights up until the backs of your
+            hands reach your shoulders - your palms should
+            now be facing forward.
+            
+            Step 4
+            
+            Flex your biceps, then slowly lower your arms
+            back down.
+            """,
+        
+        //lying one arm extension
+        """
+            Do not let your upper arm move as you perform
+            the exercise. The only body part that should move
+            is your lower arm as you bend your elbow and
+            lower the weight.
+            
+            Step 1
+            
+            Lie on a bench with your knees bent and feet flat
+            on the floor. Hold a fairly light dumbbell in your left
+            hand and straighten the arm so that the weight is
+            above your shoulder. Use your right hand to reach
+            across your chest and up the upper part of your
+            left arm to help stabilize it.
+            
+            Step 2
+            
+            Turn the weight so that your palm faces in. Without
+            moving your upper arm, bend your elbow and
+            slowly lower the dumbbell until it reaches the side
+            of your head.
+            
+            Step 3
+            
+            Slowly press the weight back up above you. Finish
+            the set, then switch positions to work your right arm.
+            """,
+        
+        //lying triceps extension
+        """
+            Step 1
+            
+            Begin by grabbing a pair of dumbbells and lying on
+            a bench. With a neutral, shoulder-width grip, keep
+            your arms straight as you hold the dumbbells up
+            over your forehead.
+            
+            Step 2
+            
+            Bend your elbows as you lower the weights down
+            to the sides of your forehead. Try keeping your
+            upper arms in the same position, and pause when
+            your elbows are bent just past 90 degrees. Return
+            to the starting position.
+            """,
+        //prone curl
+        """
+            This exercise places your arms slightly forward and
+            away from your body and helps to place the
+            emphasis on your biceps. It is harder to use
+            momentum to do the exercise, so you will find it
+            harder to do than the traditional biceps curl.
+            
+            Step 1
+            
+            Set an incline bench at a 45-degree angle and
+            grab a dumbbell in each hand.
+            
+            Step 2
+            
+            Sit down on the bench so that you are facing the
+            incline and rest your chin, chest and stomach flat
+            along the backrest of the bench. Let your arms
+            hang straight down and turn your hands out so
+            that your palms face forward.
+            
+            Step 3
+            
+            Without moving your upper arms, slowly curl the
+            weights up until the dumbbells reach your
+            shoulders - your palms should now be facing in
+            toward your body.
+            
+            Step 4
+            
+            Flex your biceps, then slowly lower your arms
+            back down.
+            
+            Step 5
+            
+            Repeat.
+            """,
+        //prone hammer curl
+        """
+            Step 1
+            
+            Set an incline bench to a 45-degree angle. Grab a
+            pair of dumbbells with your arms hanging by your
+            side, palms facing inward.
+            
+            Step 2
+            
+            Raise the dumbbells upward to roughly your
+            shoulder height by bending your elbows.
+            Remember to keep your wrists straight and avoid
+            placing a bend into them.
+            """,
+        //prone reverse curl
+        """
+            This exercise places your arms slightly forward and
+            away from your body and helps to place the
+            emphasis on your biceps. It is harder to use
+            momentum to do the exercise, so you will find it
+            harder to do than the traditional biceps curl.
+            
+            Step 1
+            
+            Set an incline bench at a 45-degree angle and
+            grab a dumbbell in each hand.
+            
+            Step 2
+            
+            Sit down on the bench so that you are facing the
+            incline and rest your chin, chest and stomach flat
+            along the backrest of the bench. Let your arms
+            hang straight down and turn your hands so that
+            your palms face behind you - this is what makes it
+            a reverse curl.
+            
+            Step 3
+            
+            Without moving your upper arms, slowly curl the
+            weights up until the dumbbells reach your
+            shoulders - your palms should now be facing in toward your body.
+            
+            Step 4
+            
+            Flex your biceps, then slowly lower your arms
+            back down.
+            
+            Step 5
+            
+            Repeat.
+            """,
+        //seated triceps extension
+                """
+                    Step 1
+                    
+                    Sit on a bench, and grab a pair of dumbbells. Hold
+                    them so that they are at arm's length above your
+                    head with palms facing inward together.
+                    
+                    Step 2
+                    
+                    Keep your upper arms stable as you lower the
+                    dumbbells behind your head until your forearms
+                    are just past parallel to the floor.
+                    
+                    Step 3
+                    
+                    Pause, then straighten your arms to return the
+                    dumbbells to starting position.
+                    """,
+        //shrug
+                """
+                    Step 1
+                    
+                    Stand upright and hold two fairly heavy dumbbells
+                    at your sides, with your palms facing each other
+                    (neutral-grip).
+                    
+                    Step 2
+                    
+                    Keep your shoulders relaxed. Shrug your shoulders
+                    as if you were trying to touch them to your ears.
+                    
+                    Step 3
+                    
+                    Hold the top most position, then gradually lower
+                    them to the starting position. Do not bend your
+                    elbows or shift your head forward during the
+                    motion. Repeat.
+                    """,
+        //Standing concentration curl
+                """
+                    Step 1
+                    
+                    Stand so that you have roughly twice your
+                    shoulder-width distance between your feet. Place a
+                    dumbbell on the floor between your feet. Bend
+                    forward at the hips to a flat-back position and grab
+                    the dumbbell with your nondominant hand. Make
+                    sure you place your other hand on the middle of
+                    your opposite thigh as support for your back. Keep
+                    your back flat, and let your weighted arm hang
+                    directly underneath your shoulder.
+                    
+                    Step 2
+                    
+                    Curl the weight toward your face, moving only your
+                    forearm and making sure your elbow doesn't move
+                    back. Stop when the weight is about chin-high,
+                    pause, and slowly return to the starting position.
+                    
+                    Step 3
+                    
+                    Finish the set with that arm and then repeat with
+                    the other.
+                    """,
+        //Standing single-arm triceps extension
+                """
+                    Step 1
+                    
+                    Stand straight upright with your feet shoulder.
+                    width apart, holding a light dumbbell in your left
+                    hand.
+                    
+                    Step 2
+                    
+                    Press the dumbbell over your head so that your left
+                    arm is straight - palm pointing out to the side.
+                    Reach your right arm across your face and cup
+                    your left elbow with your right hand - this will help
+                    keep your upper arm stable as you perform the
+                    exercise.
+                    
+                    Step 3
+                    
+                    Without moving your upper arm, slowly bend your
+                    left elbow and lower the dumbbell behind your
+                    head as far as possible.
+                    
+                    Step 4
+                    
+                    Extend the dumbbell back overhead until your left
+                    arm is straight and repeat for one set. Then place
+                    the dumbbell in your right hand and repeat the exercise with your right arm.
+                    """,
+        //Standing triceps extension
+                """
+                    Step 1
+                    
+                    Stand straight upright with your feet shoulder-
+                    width apart, holding a dumbbell overhead with
+                    both hands under the inner plate, as shown. Have
+                    it hang behind your upper back with elbows bent.
+                    
+                    Step 2
+                    
+                    Raise the dumbbell overhead by extending your
+                    elbows while hyperextending your wrists. At the
+                    top, hold, then return to the starting position in a
+                    controlled manner. Repeat.
+                    """,
+        //Swiss-ball kickback
+                """
+                    Step 1
+                    
+                    Lie facedown on a swiss-ball while holding a light
+                    dumbbell in each hand. Extend your legs straight
+                    out and place your toes on the floor - about a
+                    shoulder-width apart - to keep the ball steady.
+                    
+                    Step 2
+                    
+                    Pull your elbows up so that your upper arms are in
+                    line with your back. Your arms should be at right
+                    angles, elbows pointing behind you with your
+                    knuckles pointing toward the floor - palms facing
+                    in.
+                    
+                    Step 3
+                    
+                    Without moving your upper arms, slowly extend
+                    your arms out behind you until they are straight
+                    Squeeze your triceps, then bend your elbows to
+                    lower the weights back down.
+                    """,
+        //Swiss-ball preacher curl
+                """
+                    Step 1
+                    
+                    Place a pair of dumbbells on the floor in front of a
+                    ball. Kneel directly behind the ball, and drape your
+                    arms over it to grab the dumbbells in an
+                    underhand grip. Let our weight move back toward
+                    your heels as you brace your triceps on the ball,
+                    forearms down.
+                    
+                    Step 2
+                    
+                    Keep your back straight as you curl the weights up
+                    until your forearms are just short of perpendicular
+                    to the floor.
+                    """,
+        //Swiss-ball seated curl
+                """
+                    Step 1
+                    
+                    While sitting upright on a swiss-ball, grab hold of a
+                    pair of dumbbells so that your arms are fully
+                    extended by your side. The palms of your hands
+                    should be facing outward, as illustrated.
+                    
+                    Step 2
+                    
+                    Gradually curl your arms at the elbow, raising the
+                    dumbbells to shoulder level while not changing the
+                    position of your arms. The arm should simply bend
+                    at the elbow without moving in any other direction.
+                    Do not turn your wrists as you are raising the
+                    dumbbells.
+                    """,
+        //Triceps kickback
+                """
+                    This exercise is an excellent one for developing
+                    triceps, but it is vital that you use the correct
+                    technique. Correct body position is especially
+                    important.
+                    
+                    Step 1
+                    
+                    Take a dumbbell in one hand, then place your
+                    opposite knee on a bench, together with your
+                    other hand, and place your other foot on the floor,
+                    flexing it slightly at the knee. Then pull the arm
+                    holding the dumbbell straight back and up to your
+                    side, making it parallel to the floor - keep your
+                    back straight.
+                    
+                    Step 2
+                    
+                    Holding the dumbbell so that you have a 90 degree
+                    angle at your elbow, exhale slowly and extend your
+                    arm as far as it will go, or until your wrist, elbow,
+                    and shoulder are in line.
+                    
+                    Step 3
+                    
+                    Inhale and lower the dumbbell slowly, but only until you reach an angle of 90 degrees at your
+                    elbow. Repeat for the required number of reps.
+                    
+                    Step 4
+                    
+                    Repeat holding the dumbbell in the other hand.
+                    """,
+        //Zottman curl
+                """
+                    Step 1
+                    
+                    Sit on the edge of a bench and grab a pair of
+                    dumbbells. Begin by dropping your arms
+                    downward with your palms facing forward.
+                    
+                    Step 2
+                    
+                    Curl your arms up toward your chest so that your
+                    palms now face inward.
+                    
+                    Step 3
+                    
+                    At the peak of the curling motion, rotate your
+                    wrists so that your palms are facing out again.
+                    
+                    Step 4
+                    
+                    Gradually lower the weights, and once your arms
+                    are at their lowest point, rotate your wrists once
+                    more to return to starting position.
+                    """,
         ],
         
         // second section
@@ -340,7 +774,94 @@ Inhale and slowly lower the bar toward your forehead by flexing your arms at the
 Step 3
 
 Stop the movement a safe and comfortable distance away from your forehead, then slowly exhale and extend your arms at the elbow to push
-"""],
+""",
+        //Seated preacher curl
+        """
+            Step 1
+            
+            Using an underhand grip, hold onto a EZ-curl bar.
+            Rest your upper arms on the sloping preacher
+            bench, as illustrated, while holding the bar at an
+            arm's length in front. Try to have a slight bend in
+            your elbows of 5-10 degrees.
+            
+            Step 2
+            
+            Lift the bar as high as possible while keeping your
+            upper arms firmly planted on the pad.
+            
+            Step 3
+            
+            Pause, then slowly return the bar to the
+            starting position.
+            """,
+            //Standing biceps curl
+        """
+            This is a useful exercise that allows you to lift
+            heavy weights and increase the size and strength
+            of your biceps muscles. Experimenting with
+            variations on the handgrip can help all-round
+            development.
+            
+            Step 1
+            
+            Stand tall with your feet a shoulder-width apart
+            and your knees slightly flexed. Work your hands
+            from the ends of the bar toward the middle,
+            gripping the bar at the first bends you reach.
+            
+            Step 2
+            
+            Inhale, then slowly raise the bar toward your
+            shoulders as you exhale, keeping your elbows
+            close to your sides without letting them travel
+            forward.
+            
+            Step 3
+            
+            Inhale and slowly return the bar to the
+            starting position.
+            """,
+            //Standing wrist curl
+        """
+            Step 1
+            
+            Grab a barbell from behind you using an
+            underhand grip while keeping your arms straight.
+            Hang the barbell so that it rests on your extended
+            fingers.
+            
+            Step 2
+            
+            Flex your wrists to raise the barbell up as high
+            as possible.
+            
+            Step 3
+            
+            Reverse the movement to lower the barbell.
+            """,
+            //Wrist curl
+        """
+            Step 1
+            
+            Using an underhand grip, take hold of the barbell
+            with your hands a few inches apart. Sit on the end
+            of a bench, keep your back flat while resting your
+            forearms on it but making sure that your wrist and
+            hand hang off the end.
+            
+            Step 2
+            
+            Allow your wrists to bend back and the barbell to
+            roll to the ends of your fingers. Close your
+            fingertips as you curl your palms toward your
+            biceps.
+            
+            Step 3
+            
+            Pause, reverse the motion, and let the bar roll back
+            to your fingertips.
+            """],
         // Third section
         
         [
@@ -734,13 +1255,23 @@ Alternate the movement with your left hand and right foot.
 Step 3
 
 Repeat.
-"""]
-    ]
+"""]]
     
+    var pictures = [["Angled prone curl","Angled prone reverse curl","Arnold press","Cable shrug","Concentration dumbbell curl","Dumbbell biceps curl","Dumbbell reverse curl","Dumbbell row kickback","Dumbbell split jerk", "Dumbbell upright row", "Dumbbell wrist twist","Hammer curl","Incline dumbbell curl","Incline hammer curl","Incline reverse curl","Lying one-arm extension","Lying triceps extension","Prone curl","Prone hammer curl","Prone reverse curl","Seated triceps extension","Shrug","Standing concentration curl","Standing single-arm triceps extension","Standing triceps extension","Swiss-ball kickback","Swiss-ball preacher curl","Swiss-ball seated curl","Triceps kickback","Zottman curl"],
+                    ["Barbell rear delt raise","Barbell split jerk","Decline barbell bench press","Decline close-grip bench press","Drag curl","French press","Incline barbell bench press","Lying pullover","Overhead bar press","Overhead triceps extension","Reverse wrist curl","Seated preacher curl","Standing biceps curl","Standing wrist curl","Wrist curl"],
+                    ["Cable biceps curl","Cable triceps overhead extension", "Cable triceps pushdown","Dip","Lat pulldown","Machine biceps curl","Machine triceps extension","Triceps assisted dip"],
+                    ["Kettlebell curl","Kettlebell french press","Kettlebell kickback","Kettlebell overhead press","Kettlebell pullover","Kettlebell renegade row"],
+                    ["Swiss-ball french press","Swiss-ball kickback","Swiss-ball preacher curl","Swiss-ball seated curl"],
+                    ["Resistance band biceps curl","Resistance band close row","Resistance band curl","Resistance band overhead triceps ext."],
+                    ["Bench dip","Chair dip (no weights)","Diamond pushup","External rotation (no weights)","Lying single-arm pushup","Stabilizing pushup","Two-point bridge"]]
+    
+    @IBOutlet weak var backbtn: UIButton!
+
     var currenttableView: Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.backbtn.setTitle("", for: .normal)
 
         currenttableView = 0
     }
@@ -748,6 +1279,7 @@ Repeat.
         if let vc = storyboard?.instantiateViewController(withIdentifier: "ArmsDetailViewController") as? ArmsDetailViewController{
             vc.name = self.data[currenttableView][indexPath.row]
            vc.details = self.details[currenttableView][indexPath.row]
+           vc.images = UIImage(named: pictures[currenttableView][indexPath.row])!
 
 //        tableView.deselectRow(at: indexPath, animated: true)
 //        performSegue(withIdentifier: "ArmsDetails", sender: self)
