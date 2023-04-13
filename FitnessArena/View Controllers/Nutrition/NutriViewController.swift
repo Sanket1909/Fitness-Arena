@@ -40,3 +40,4 @@ class NutriViewController: UIViewController {
         self.performSegue(withIdentifier: "buildingMuscle", sender: nil)
     }
 }
+
